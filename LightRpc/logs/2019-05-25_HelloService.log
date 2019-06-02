@@ -1,0 +1,154 @@
+2019-05-25T22:26:06.072+0800	fatal	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:129	Start listen error:listen tcp: lookup tcp/䪒: nodename nor servname provided, or not known	{"serviceName": "HelloService"}
+rpc/LightBackend/utils.(*Log).Fatalf
+	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:129
+rpc/LightRpc/init.InitService
+	/Users/evan/golang/src/rpc/LightRpc/init/init_service.go:17
+rpc/LightRpc/init.InitFramework
+	/Users/evan/golang/src/rpc/LightRpc/init/init_service.go:30
+main.main
+	/Users/evan/golang/src/rpc/LightRpc/rpc_server.go:7
+runtime.main
+	/usr/local/Cellar/go/1.11.4/libexec/src/runtime/proc.go:201
+2019-05-25T22:30:14.363+0800	fatal	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:129	Start listen error:listen tcp: lookup tcp/䪒: nodename nor servname provided, or not known	{"serviceName": "HelloService"}
+rpc/LightBackend/utils.(*Log).Fatalf
+	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:129
+rpc/LightRpc/init.InitService
+	/Users/evan/golang/src/rpc/LightRpc/init/init_service.go:17
+rpc/LightRpc/init.InitFramework
+	/Users/evan/golang/src/rpc/LightRpc/init/init_service.go:30
+main.main
+	/Users/evan/golang/src/rpc/LightRpc/rpc_server.go:7
+runtime.main
+	/usr/local/Cellar/go/1.11.4/libexec/src/runtime/proc.go:201
+2019-05-25T22:31:47.905+0800	fatal	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:129	Start listen error:listen tcp: lookup tcp/䪒: nodename nor servname provided, or not known	{"serviceName": "HelloService"}
+rpc/LightBackend/utils.(*Log).Fatalf
+	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:129
+rpc/LightRpc/init.InitService
+	/Users/evan/golang/src/rpc/LightRpc/init/init_service.go:19
+rpc/LightRpc/init.InitFramework
+	/Users/evan/golang/src/rpc/LightRpc/init/init_service.go:32
+main.main
+	/Users/evan/golang/src/rpc/LightRpc/rpc_server.go:7
+runtime.main
+	/usr/local/Cellar/go/1.11.4/libexec/src/runtime/proc.go:201
+2019-05-25T22:32:29.115+0800	fatal	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:129	Start listen error:listen tcp: lookup tcp/䪒: nodename nor servname provided, or not known	{"serviceName": "HelloService"}
+rpc/LightBackend/utils.(*Log).Fatalf
+	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:129
+rpc/LightRpc/init.InitService
+	/Users/evan/golang/src/rpc/LightRpc/init/init_service.go:20
+rpc/LightRpc/init.InitFramework
+	/Users/evan/golang/src/rpc/LightRpc/init/init_service.go:33
+main.main
+	/Users/evan/golang/src/rpc/LightRpc/rpc_server.go:7
+runtime.main
+	/usr/local/Cellar/go/1.11.4/libexec/src/runtime/proc.go:201
+2019-05-25T22:32:57.233+0800	fatal	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:129	Start listen error:listen tcp: lookup tcp/䪒: nodename nor servname provided, or not known	{"serviceName": "HelloService"}
+rpc/LightBackend/utils.(*Log).Fatalf
+	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:129
+rpc/LightRpc/init.InitService
+	/Users/evan/golang/src/rpc/LightRpc/init/init_service.go:21
+rpc/LightRpc/init.InitFramework
+	/Users/evan/golang/src/rpc/LightRpc/init/init_service.go:34
+main.main
+	/Users/evan/golang/src/rpc/LightRpc/rpc_server.go:7
+runtime.main
+	/usr/local/Cellar/go/1.11.4/libexec/src/runtime/proc.go:201
+2019-05-25T22:33:23.407+0800	fatal	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:129	Start listen error:listen tcp: lookup tcp/䪒: nodename nor servname provided, or not known	{"serviceName": "HelloService"}
+rpc/LightBackend/utils.(*Log).Fatalf
+	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:129
+rpc/LightRpc/init.InitService
+	/Users/evan/golang/src/rpc/LightRpc/init/init_service.go:21
+rpc/LightRpc/init.InitFramework
+	/Users/evan/golang/src/rpc/LightRpc/init/init_service.go:34
+main.main
+	/Users/evan/golang/src/rpc/LightRpc/rpc_server.go:7
+runtime.main
+	/usr/local/Cellar/go/1.11.4/libexec/src/runtime/proc.go:201
+2019-05-25T22:33:37.279+0800	fatal	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:129	Start listen error:listen tcp: lookup tcp/䪒: nodename nor servname provided, or not known	{"serviceName": "HelloService"}
+rpc/LightBackend/utils.(*Log).Fatalf
+	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:129
+rpc/LightRpc/init.InitService
+	/Users/evan/golang/src/rpc/LightRpc/init/init_service.go:22
+rpc/LightRpc/init.InitFramework
+	/Users/evan/golang/src/rpc/LightRpc/init/init_service.go:35
+main.main
+	/Users/evan/golang/src/rpc/LightRpc/rpc_server.go:7
+runtime.main
+	/usr/local/Cellar/go/1.11.4/libexec/src/runtime/proc.go:201
+2019-05-25T22:35:13.730+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:55805, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-25T22:35:27.737+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+┌─────────────────────────────────────────┬───────────┬─────────┬─────┬─────┬──────┬───────┐
+│ ServiceName                             │ StateCode │ Average │ Max │ Min │ Rate │ Times │
+├─────────────────────────────────────────┼───────────┼─────────┼─────┼─────┼──────┼───────┤
+│ .rpc.HelloService.ExecService.degrading │ 503       │ 0       │ 0   │ 0   │ 1    │ 1     │
+└─────────────────────────────────────────┴───────────┴─────────┴─────┴─────┴──────┴───────┘	{"serviceName": "HelloService"}
+2019-05-25T22:36:27.211+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:55817, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-25T22:36:54.730+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+┌───────────────────────────────┬───────────┬─────────┬─────┬─────┬──────┬───────┐
+│ ServiceName                   │ StateCode │ Average │ Max │ Min │ Rate │ Times │
+├───────────────────────────────┼───────────┼─────────┼─────┼─────┼──────┼───────┤
+│ .rpc.HelloService.ExecService │ 0         │ 0       │ 0   │ 0   │ 1    │ 1     │
+└───────────────────────────────┴───────────┴─────────┴─────┴─────┴──────┴───────┘	{"serviceName": "HelloService"}
+2019-05-25T22:37:29.379+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:55825, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-25T22:37:56.420+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+┌───────────────────────────────┬───────────┬─────────┬─────┬─────┬──────┬───────┐
+│ ServiceName                   │ StateCode │ Average │ Max │ Min │ Rate │ Times │
+├───────────────────────────────┼───────────┼─────────┼─────┼─────┼──────┼───────┤
+│ .rpc.HelloService.ExecService │ 0         │ 0       │ 0   │ 0   │ 1    │ 1     │
+└───────────────────────────────┴───────────┴─────────┴─────┴─────┴──────┴───────┘	{"serviceName": "HelloService"}
+2019-05-25T22:38:04.936+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:55830, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-25T22:38:33.941+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+┌───────────────────────────────┬───────────┬─────────┬─────┬─────┬──────┬───────┐
+│ ServiceName                   │ StateCode │ Average │ Max │ Min │ Rate │ Times │
+├───────────────────────────────┼───────────┼─────────┼─────┼─────┼──────┼───────┤
+│ .rpc.HelloService.ExecService │ 0         │ 0       │ 0   │ 0   │ 1    │ 1     │
+└───────────────────────────────┴───────────┴─────────┴─────┴─────┴──────┴───────┘	{"serviceName": "HelloService"}
+2019-05-25T22:40:21.594+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:55848, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-25T22:40:44.826+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+┌───────────────────────────────┬───────────┬─────────┬─────┬─────┬──────┬───────┐
+│ ServiceName                   │ StateCode │ Average │ Max │ Min │ Rate │ Times │
+├───────────────────────────────┼───────────┼─────────┼─────┼─────┼──────┼───────┤
+│ .rpc.HelloService.ExecService │ 0         │ 0       │ 0   │ 0   │ 1    │ 1     │
+└───────────────────────────────┴───────────┴─────────┴─────┴─────┴──────┴───────┘	{"serviceName": "HelloService"}
+2019-05-25T22:41:41.458+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:55880, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-25T22:41:41.724+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:55881, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-25T22:41:41.724+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:55882, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-25T22:41:41.729+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:55883, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-25T22:41:41.737+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:55884, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-25T22:42:15.872+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:55888, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-25T22:42:46.267+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:55898, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-25T22:43:14.854+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+┌───────────────────────────────┬───────────┬─────────┬─────┬─────┬──────┬───────┐
+│ ServiceName                   │ StateCode │ Average │ Max │ Min │ Rate │ Times │
+├───────────────────────────────┼───────────┼─────────┼─────┼─────┼──────┼───────┤
+│ .rpc.HelloService.ExecService │ 0         │ 0       │ 0   │ 0   │ 1    │ 1     │
+└───────────────────────────────┴───────────┴─────────┴─────┴─────┴──────┴───────┘	{"serviceName": "HelloService"}
+2019-05-25T22:43:24.840+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:55903, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-25T22:43:53.570+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+┌───────────────────────────────┬───────────┬─────────┬─────┬─────┬──────┬───────┐
+│ ServiceName                   │ StateCode │ Average │ Max │ Min │ Rate │ Times │
+├───────────────────────────────┼───────────┼─────────┼─────┼─────┼──────┼───────┤
+│ .rpc.HelloService.ExecService │ 0         │ 0       │ 0   │ 0   │ 1    │ 1     │
+└───────────────────────────────┴───────────┴─────────┴─────┴─────┴──────┴───────┘	{"serviceName": "HelloService"}
+2019-05-25T22:45:27.085+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:55934, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-25T22:45:52.258+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:55940, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-25T22:46:18.531+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:55945, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-25T22:46:45.959+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+┌───────────────────────────────┬───────────┬─────────┬─────┬─────┬──────┬───────┐
+│ ServiceName                   │ StateCode │ Average │ Max │ Min │ Rate │ Times │
+├───────────────────────────────┼───────────┼─────────┼─────┼─────┼──────┼───────┤
+│ .rpc.HelloService.ExecService │ 0         │ 0       │ 0   │ 0   │ 1    │ 1     │
+└───────────────────────────────┴───────────┴─────────┴─────┴─────┴──────┴───────┘	{"serviceName": "HelloService"}
+2019-05-25T22:46:52.846+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:55945, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-25T22:46:59.546+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:55945, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-25T22:46:59.711+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:55945, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-25T22:46:59.916+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:55945, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-25T22:47:00.079+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:55945, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-25T22:47:00.239+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:55945, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-25T22:47:00.382+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:55945, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-25T22:47:15.960+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+┌───────────────────────────────┬───────────┬─────────┬─────┬─────┬──────┬───────┐
+│ ServiceName                   │ StateCode │ Average │ Max │ Min │ Rate │ Times │
+├───────────────────────────────┼───────────┼─────────┼─────┼─────┼──────┼───────┤
+│ .rpc.HelloService.ExecService │ 0         │ 0       │ 0   │ 0   │ 1    │ 7     │
+└───────────────────────────────┴───────────┴─────────┴─────┴─────┴──────┴───────┘	{"serviceName": "HelloService"}

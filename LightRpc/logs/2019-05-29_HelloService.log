@@ -1,0 +1,172 @@
+2019-05-29T00:05:23.265+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+Init Server success.
+Server ListenAt:19090,
+OpsPort:19091,
+ServiceName:HelloService,
+DegradingStatus:false,
+LogLevel:Debug	{"serviceName": "HelloService"}
+2019-05-29T00:05:35.926+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:58608, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-29T00:05:53.266+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+Server statistics in 30s:
+┌───────────────────────────────┬───────────┬─────────┬───────┬───────┬──────┬───────┐
+│ ServiceName                   │ StateCode │ Average │ Max   │ Min   │ Rate │ Times │
+├───────────────────────────────┼───────────┼─────────┼───────┼───────┼──────┼───────┤
+│ .rpc.HelloService.ExecService │ 200       │ 0.165   │ 0.165 │ 0.165 │ 1    │ 1     │
+└───────────────────────────────┴───────────┴─────────┴───────┴───────┴──────┴───────┘	{"serviceName": "HelloService"}
+2019-05-29T00:12:35.486+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+Init Server success.
+Server ListenAt:19090,
+OpsPort:19091,
+ServiceName:HelloService,
+DegradingStatus:false,
+LogLevel:Debug	{"serviceName": "HelloService"}
+2019-05-29T00:13:39.724+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+Init Server success.
+Server ListenAt:19090,
+OpsPort:19091,
+ServiceName:HelloService,
+DegradingStatus:false,
+LogLevel:Debug	{"serviceName": "HelloService"}
+2019-05-29T00:13:43.833+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:58633, request_url:/reconfig,	{"serviceName": "HelloService"}
+2019-05-29T00:13:43.833+0800	warn	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:140	No param in request, bad request.	{"serviceName": "HelloService"}
+rpc/LightBackend/utils.(*Log).Warn
+	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:140
+rpc/LightRpc/common.RpcHandlerFunc.EmptyParamHandler
+	/Users/evan/golang/src/rpc/LightRpc/common/handler.go:63
+rpc/LightRpc/common.RpcHandlerFunc.ServeHTTP
+	/Users/evan/golang/src/rpc/LightRpc/common/handler.go:40
+net/http.(*ServeMux).ServeHTTP
+	/usr/local/Cellar/go/1.11.4/libexec/src/net/http/server.go:2361
+net/http.serverHandler.ServeHTTP
+	/usr/local/Cellar/go/1.11.4/libexec/src/net/http/server.go:2741
+net/http.(*conn).serve
+	/usr/local/Cellar/go/1.11.4/libexec/src/net/http/server.go:1847
+2019-05-29T00:20:21.338+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+Init Server success.
+Server ListenAt:19090,
+OpsPort:19091,
+ServiceName:HelloService,
+DegradingStatus:false,
+LogLevel:Debug	{"serviceName": "HelloService"}
+2019-05-29T00:20:35.501+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:58655, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-29T00:20:51.339+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+Server statistics in 30s:
+┌───────────────────────────────┬───────────┬─────────┬───────┬───────┬──────┬───────┐
+│ ServiceName                   │ StateCode │ Average │ Max   │ Min   │ Rate │ Times │
+├───────────────────────────────┼───────────┼─────────┼───────┼───────┼──────┼───────┤
+│ .rpc.HelloService.ExecService │ 200       │ 0.168   │ 0.168 │ 0.168 │ 1    │ 1     │
+└───────────────────────────────┴───────────┴─────────┴───────┴───────┴──────┴───────┘	{"serviceName": "HelloService"}
+2019-05-29T00:20:57.775+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:58659, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-29T00:20:57.775+0800	error	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:121	send http request to server error:service degrading or fusing	{"serviceName": "HelloService"}
+rpc/LightBackend/utils.(*Log).Errorf
+	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:121
+rpc/LightRpc/common.(*ClientConn).Invoke
+	/Users/evan/golang/src/rpc/LightRpc/common/model.go:101
+rpc/LightRpc/proto.(*HelloServiceStruct).ExecService
+	/Users/evan/golang/src/rpc/LightRpc/proto/test_service.pb.go:192
+rpc/LightRpc/client.RPCRequestDemo
+	/Users/evan/golang/src/rpc/LightRpc/client/rpcClient.go:22
+main.main
+	/Users/evan/golang/src/rpc/LightRpc/rpc_client.go:24
+runtime.main
+	/usr/local/Cellar/go/1.11.4/libexec/src/runtime/proc.go:201
+2019-05-29T00:20:57.776+0800	error	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:121	Send RPC request error:service degrading or fusing.	{"serviceName": "HelloService"}
+rpc/LightBackend/utils.(*Log).Errorf
+	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:121
+rpc/LightRpc/client.RPCRequestDemo
+	/Users/evan/golang/src/rpc/LightRpc/client/rpcClient.go:24
+main.main
+	/Users/evan/golang/src/rpc/LightRpc/rpc_client.go:24
+runtime.main
+	/usr/local/Cellar/go/1.11.4/libexec/src/runtime/proc.go:201
+2019-05-29T00:21:21.344+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+Server statistics in 30s:
+┌─────────────────────────────────────────┬───────────┬─────────┬─────┬─────┬──────┬───────┐
+│ ServiceName                             │ StateCode │ Average │ Max │ Min │ Rate │ Times │
+├─────────────────────────────────────────┼───────────┼─────────┼─────┼─────┼──────┼───────┤
+│ .rpc.HelloService.ExecService.degrading │ 503       │ 0       │ 0   │ 0   │ 1    │ 1     │
+└─────────────────────────────────────────┴───────────┴─────────┴─────┴─────┴──────┴───────┘	{"serviceName": "HelloService"}
+2019-05-29T00:28:32.942+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:58675, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-29T00:28:51.348+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+Server statistics in 30s:
+┌───────────────────────────────┬───────────┬─────────┬──────┬──────┬──────┬───────┐
+│ ServiceName                   │ StateCode │ Average │ Max  │ Min  │ Rate │ Times │
+├───────────────────────────────┼───────────┼─────────┼──────┼──────┼──────┼───────┤
+│ .rpc.HelloService.ExecService │ 200       │ 0.04    │ 0.04 │ 0.04 │ 1    │ 1     │
+└───────────────────────────────┴───────────┴─────────┴──────┴──────┴──────┴───────┘	{"serviceName": "HelloService"}
+2019-05-29T14:27:25.468+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+Init Server success.
+Server ListenAt:19090,
+OpsPort:19091,
+ServiceName:HelloService,
+DegradingStatus:false,
+LogLevel:Debug	{"serviceName": "HelloService"}
+2019-05-29T14:29:38.018+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:60396, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-29T14:29:55.470+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+Server statistics in 30s:
+┌───────────────────────────────┬───────────┬─────────┬───────┬───────┬──────┬───────┐
+│ ServiceName                   │ StateCode │ Average │ Max   │ Min   │ Rate │ Times │
+├───────────────────────────────┼───────────┼─────────┼───────┼───────┼──────┼───────┤
+│ .rpc.HelloService.ExecService │ 200       │ 0.208   │ 0.208 │ 0.208 │ 1    │ 1     │
+└───────────────────────────────┴───────────┴─────────┴───────┴───────┴──────┴───────┘	{"serviceName": "HelloService"}
+2019-05-29T14:32:30.189+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+Init Server success.
+Server ListenAt:19090,
+OpsPort:19091,
+ServiceName:HelloService,
+DegradingStatus:false,
+LogLevel:Debug	{"serviceName": "HelloService"}
+2019-05-29T14:32:33.235+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:60412, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-29T14:33:00.192+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+Server statistics in 30s:
+┌───────────────────────────────┬───────────┬─────────┬───────┬───────┬──────┬───────┐
+│ ServiceName                   │ StateCode │ Average │ Max   │ Min   │ Rate │ Times │
+├───────────────────────────────┼───────────┼─────────┼───────┼───────┼──────┼───────┤
+│ .rpc.HelloService.ExecService │ 200       │ 0.212   │ 0.212 │ 0.212 │ 1    │ 1     │
+└───────────────────────────────┴───────────┴─────────┴───────┴───────┴──────┴───────┘	{"serviceName": "HelloService"}
+2019-05-29T14:36:34.840+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:60438, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-29T14:36:34.840+0800	error	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:121	send http request to server error:service degrading or fusing	{"serviceName": "HelloService"}
+rpc/LightBackend/utils.(*Log).Errorf
+	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:121
+rpc/LightRpc/common.(*ClientConn).Invoke
+	/Users/evan/golang/src/rpc/LightRpc/common/model.go:101
+rpc/LightRpc/proto.(*HelloServiceStruct).ExecService
+	/Users/evan/golang/src/rpc/LightRpc/proto/test_service.pb.go:152
+rpc/LightRpc/client.RPCRequestDemo
+	/Users/evan/golang/src/rpc/LightRpc/client/rpcClient.go:22
+main.main
+	/Users/evan/golang/src/rpc/LightRpc/rpc_client.go:24
+runtime.main
+	/usr/local/Cellar/go/1.11.4/libexec/src/runtime/proc.go:201
+2019-05-29T14:36:34.841+0800	error	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:121	Send RPC request error:service degrading or fusing.	{"serviceName": "HelloService"}
+rpc/LightBackend/utils.(*Log).Errorf
+	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:121
+rpc/LightRpc/client.RPCRequestDemo
+	/Users/evan/golang/src/rpc/LightRpc/client/rpcClient.go:24
+main.main
+	/Users/evan/golang/src/rpc/LightRpc/rpc_client.go:24
+runtime.main
+	/usr/local/Cellar/go/1.11.4/libexec/src/runtime/proc.go:201
+2019-05-29T14:37:00.191+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+Server statistics in 30s:
+┌─────────────────────────────────────────┬───────────┬─────────┬─────┬─────┬──────┬───────┐
+│ ServiceName                             │ StateCode │ Average │ Max │ Min │ Rate │ Times │
+├─────────────────────────────────────────┼───────────┼─────────┼─────┼─────┼──────┼───────┤
+│ .rpc.HelloService.ExecService.degrading │ 503       │ 0       │ 0   │ 0   │ 1    │ 1     │
+└─────────────────────────────────────────┴───────────┴─────────┴─────┴─────┴──────┴───────┘	{"serviceName": "HelloService"}
+2019-05-29T14:40:29.135+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:60453, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-29T14:40:30.192+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+Server statistics in 30s:
+┌─────────────────────────────────────────┬───────────┬─────────┬─────┬─────┬──────┬───────┐
+│ ServiceName                             │ StateCode │ Average │ Max │ Min │ Rate │ Times │
+├─────────────────────────────────────────┼───────────┼─────────┼─────┼─────┼──────┼───────┤
+│ .rpc.HelloService.ExecService.degrading │ 503       │ 0       │ 0   │ 0   │ 1    │ 1     │
+└─────────────────────────────────────────┴───────────┴─────────┴─────┴─────┴──────┴───────┘	{"serviceName": "HelloService"}
+2019-05-29T14:40:45.317+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:60453, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-29T14:41:00.192+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+Server statistics in 30s:
+┌───────────────────────────────┬───────────┬─────────┬───────┬───────┬──────┬───────┐
+│ ServiceName                   │ StateCode │ Average │ Max   │ Min   │ Rate │ Times │
+├───────────────────────────────┼───────────┼─────────┼───────┼───────┼──────┼───────┤
+│ .rpc.HelloService.ExecService │ 200       │ 0.167   │ 0.167 │ 0.167 │ 1    │ 1     │
+└───────────────────────────────┴───────────┴─────────┴───────┴───────┴──────┴───────┘	{"serviceName": "HelloService"}

@@ -1,0 +1,35 @@
+2019-05-27T11:18:34.231+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:57766, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
+2019-05-27T11:18:34.231+0800	warn	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:140	No param in request, bad request.	{"serviceName": "HelloService"}
+rpc/LightBackend/utils.(*Log).Warn
+	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:140
+rpc/LightRpc/common.RpcHandlerFunc.EmptyParamHandler
+	/Users/evan/golang/src/rpc/LightRpc/common/handler.go:62
+rpc/LightRpc/common.RpcHandlerFunc.ServeHTTP
+	/Users/evan/golang/src/rpc/LightRpc/common/handler.go:39
+net/http.(*ServeMux).ServeHTTP
+	/usr/local/Cellar/go/1.11.4/libexec/src/net/http/server.go:2361
+net/http.serverHandler.ServeHTTP
+	/usr/local/Cellar/go/1.11.4/libexec/src/net/http/server.go:2741
+net/http.(*conn).serve
+	/usr/local/Cellar/go/1.11.4/libexec/src/net/http/server.go:1847
+2019-05-27T11:34:03.394+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Init Server success.
+Server ListenAt:19090,
+OpsPort:19091,
+ServiceName:HelloService,
+,DegradingStatus:false,LogLevel:Debug,
+	{"serviceName": "HelloService"}
+2019-05-27T11:36:49.619+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+Init Server success.
+Server ListenAt:19090,
+OpsPort:19091,
+ServiceName:HelloService,
+DegradingStatus:false,
+LogLevel:Debug,
+	{"serviceName": "HelloService"}
+2019-05-27T11:38:06.556+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+Init Server success.
+Server ListenAt:19090,
+OpsPort:19091,
+ServiceName:HelloService,
+DegradingStatus:false,
+LogLevel:Debug	{"serviceName": "HelloService"}

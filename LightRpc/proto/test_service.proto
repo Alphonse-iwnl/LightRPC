@@ -1,0 +1,15 @@
+syntax = "proto2";
+package proto;
+
+message Test {
+    required string message = 1;
+    required string id=2;
+}
+
+message Test01{
+    required string message=1;
+}
+
+service HelloService{
+    rpc ExecService(Test01) returns (Test);
+}
