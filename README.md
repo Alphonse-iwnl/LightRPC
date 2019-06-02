@@ -17,6 +17,12 @@
 > 所有的示例都在.git目录下演示,具体路径请自行调整  
 > 目前框架有一个echo调用示例
 
+* 框架基础库使用了uber.zap和BurntSushi/toml开源库支撑,需要先安装依赖.  
+```
+$ go get go.uber.org/zap
+$ git clone github.com/BurntSushi/toml
+```
+
 ### 查看echo调用示例
 ```
 # 启动RPC服务端
@@ -50,7 +56,7 @@ $ touch test.proto
 # opt可为server,cli,all;可以分别生成两端代码
 $ LightProtoPlug --file test.proto --opt all
 ```
----
+
 ### 实现接口
 * 编辑文件LightRpc/server/rpcServer.go
 * 为**ExecService**结构体实现proto文件中定义的方法 e.g.
@@ -70,3 +76,16 @@ go run LightRpc/rpc_server.go
 ```
 go run LightRpc/rpc_client.go
 ```
+---
+文档待补充...
+### 基础设施
+* 监控
+* 日志
+* 配置文件
+
+### 配置文件热更新
+* 框架启动后同时监听运维接口(配置文件中为OpsPort),运维接口目前提供health check和配置文件热更新
+* 框架启动后修改本地配置文件,调用<addr:port>/reconfig,框架会开始热更新;目前支持的热更新配置较少
+* 观察者模式 
+
+### 服务降级与熔断
