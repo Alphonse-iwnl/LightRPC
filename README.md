@@ -14,8 +14,22 @@
 
 ## Get Start
 
-> 所有的示例都在.git目录下演示,具体路径请自行调整
+> 所有的示例都在.git目录下演示,具体路径请自行调整  
 > 目前框架有一个echo调用示例
+
+### 查看echo调用示例
+```
+# 启动RPC服务端
+$ go run LightRpc/rpc_server.go
+# 启动RPC客户端 调用RPC方法
+$ go run LightRpc/rpc_client.go
+```
+* 用户使用框架时需要编写或关注
+    * 配置文件
+    * proto文件
+    * rpc方法实现(server)
+    * rpc方法调用(client)
+* 用户可根据echo示例和后文的教程熟悉使用流程并自定义RPC服务.
 
 ### 安装protobuf插件
 ```
