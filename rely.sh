@@ -1,6 +1,6 @@
 #!/bin/bash
 cd ..
-mv LightRpc/ rpc/
+mv LightRPC/ rpc/
 go get go.uber.org/zap
 go get github.com/BurntSushi/toml
 go get github.com/modood/table
