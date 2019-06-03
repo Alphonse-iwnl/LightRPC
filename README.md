@@ -17,11 +17,8 @@
 > 所有的示例都在.git目录下演示,具体路径请自行调整  
 > 目前框架有一个echo调用示例
 
-* 框架基础库使用了uber.zap和BurntSushi/toml开源库支撑,需要先安装依赖.  
-```
-$ go get go.uber.org/zap
-$ git clone github.com/BurntSushi/toml
-```
+* 框架基础库使用了一些开源库支撑,可以尝试先使用`rely.sh`安装部分依赖;其中protobuf安装的时间较长,请耐心等待.  
+
 
 ### 查看echo调用示例
 ```
