@@ -1,0 +1,8 @@
+2019-06-03T23:33:00.018+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	
+Init Server success.
+Server ListenAt:19090,
+OpsPort:19091,
+ServiceName:HelloService,
+DegradingStatus:false,
+LogLevel:Debug	{"serviceName": "HelloService"}
+2019-06-03T23:33:17.533+0800	info	/Users/evan/golang/src/rpc/LightBackend/utils/logging.go:117	Recv request from 127.0.0.1:58264, request_url:/rpc/HelloService/ExecService,	{"serviceName": "HelloService"}
